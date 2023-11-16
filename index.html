@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prototipo2</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/main.js">
+    <script src="https://kit.fontawesome.com/6bed73f555.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo" onclick="scrollToTop()">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="enlaces-header">
+                    <a href="#">Inicio</a>
+                    <a href="#">Ofrecemos</a>
+                    <a href="#">Más información</a>
+                    <a href="#">Contáctenos</a>
+                    <a href="#">Redes sociales</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+
+        </nav>
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>Nuestra creatividad es tu éxito</h1>
+                    <p>Somos una empresa de diseño que no encargamos de hacer el trabajo que no todo el mundo le
+                        quiere
+                        hacer. Manejamos un amplio campo de habilidades que volverán tus proyectos más sencillos.
+                    </p>
+                    <a href="#">Leer más</a>
+                </section>
+                <img src="img/primeraIlustracion.svg" alt="">
+            </section>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">Ofrecemos una gran cantidad de variedad de trabajo:</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Diseño gráfico</h3>
+                    <p>Transforma tu visión en impactantes obras de arte visuales: nuestro equipo de diseño gráfico
+                        está
+                        aquí para hacer brillar tu marca en un mundo lleno de posibilidades creativas.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-code"></i>
+                    <h3>Diseño de páginas web</h3>
+                    <p>Convierte tus ideas en experiencias digitales cautivadoras. Nuestro equipo de diseño web crea
+                        sitios que no solo impresionan visualmente, sino que también impulsan tu presencia online
+                        hacia
+                        nuevos horizontes.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-cog"></i>
+                    <h3>Producción de videos</h3>
+                    <p>Da vida a tus historias con nuestro servicio de producción de videos. Desde concepto hasta
+                        pantalla, creamos narrativas visuales que cautivan, inspiran y dejan una impresión duradera.
+                        ¡Haz que tu mensaje brille con nuestros expertos en producción audiovisual!</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>SEO</h3>
+                    <p>Nos encargamos de la optimización en motores de búsqueda.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-comments"></i>
+                    <h3>Marketing</h3>
+                    <p>Hacemos conocer tu proyecto utilizando diferentes técnicas que haran que tu proyecto llegue a
+                        todo el mundo.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Infografías</h3>
+                    <p>Con el objetivo de que llegue a las personas de manera física para darse mejor a conocer.</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>Todos hacemos uno</h1>
+            <p>En caso de necesitas más información debajo les dejamos todos los contactos de la empresa por si
+                tienen
+                algún tipo de duda.</p>
+            <a href="#">Leer más</a>
+        </section>
+        <img src="img/segundaIlustracion.svg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+    <section class="results">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>+8863</h4>
+                    <p>Diseño gráfico</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>+8864</h4>
+                    <p>Diseño de web</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>+8865</h4>
+                    <p>Marketing</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>+8866</h4>
+                    <p>Producción de videos</p>
+                </div>
+            </section>
+            <section class="results-text">
+                <h4>Contacte con nosotros</h4>
+                <p>Si no hemos podido contestar. Por favor ingrese su número debajo y le llamaremos cuando podamos.
+                </p>
+                <a href="#">Ingrese aquí</a>
+
+                <form action="/index.html">
+                    <div class="mb-3 mt-3">
+                        <label for="number" class="form-label">Número:</label>
+                        <input type="number" class="form-control" id="number" placeholder="Tu número" name="number">
+                    </div>
+                    <button type="submit" class="form button">Listo</button>
+                </form>
+            </section>
+        </div>
+    </section>
+    <section class="contenedor1 services">
+        <img src="img/terceraIlustracion.svg" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Diseño de web</h4>
+            <h4><i class="far fa-check-circle"></i> Desarrollo web</h4>
+            <h4><i class="far fa-check-circle"></i> SEO</h4>
+            <h4><i class="far fa-check-circle"></i> Marketing</h4>
+            <h4><i class="far fa-check-circle"></i> Soporte de web</h4>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Servicio 1</a>
+            <a href="#">Servicio 2</a>
+            <a href="#">Servicio 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">Personal</a>
+            <a href="#">Instalaciones</a>
+            <a href="#">Localización</a>
+        </div>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+
+</html>
